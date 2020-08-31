@@ -41,16 +41,35 @@ section.hero {
   color: #fff;
 }
 
-.order-now {
+.btn-primary {
   background: #fe5f1e;
-  border: 2px solid #fff;
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
 
-.order-now:hover {
-  background: #fff;
+.btn-primary:hover {
+  background: #b23301;
   border-color: #fe5f1e;
+}
+
+section.cart {
+  background: #f8f8f8;
+}
+
+section.cart .amount {
   color: #fe5f1e;
+}
+
+section.login {
+  background: #f8f8f8;
+  min-height: calc(100vh - 86px);
+}
+
+section.login a {
+  color: #fe5f1e;
+}
+
+section.login a:hover {
+  color: #b23301;
 }
 
